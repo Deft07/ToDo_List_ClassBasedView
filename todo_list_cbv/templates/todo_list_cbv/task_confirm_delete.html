@@ -1,3 +1,5 @@
+{% extends 'todo_list_cbv/main.html' %}
+{% block content %}
 {% block body %}
     <a href="{% url 'tasks' %}">Go Back</a>
     <form>
@@ -7,3 +9,4 @@
     </form>
 
 {% endblock body %}
+{% endblock content %}

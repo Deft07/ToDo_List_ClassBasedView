@@ -1,3 +1,5 @@
+{% extends 'todo_list_cbv/main.html' %}
+{% block content %}
 {% block body %}
     <h1>Login</h1>
     <form method="POST">
@@ -9,3 +11,4 @@
 
     <p>Don't have an account?<a href="{% url 'register' %}">Register</a></p>
 {% endblock body %}
+{% endblock content %}
